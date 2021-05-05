@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    font-weight: 400;
+    color: #180330;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #180330;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1290px;
+    margin: 0 auto;
+}
+
+/* SECTION NAVIGATION */
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 19px;
+    margin-bottom: 129px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu__reference{
+    display: flex;
+    margin-right: 200px;
+}
+.menu__reference a{
+    margin-right: 48px;
+    line-height: 25px;
+    color: #180330;
+}
+.menu__reference a:focus{
+    border-bottom: 2px solid #550088;
+}
+
+.menu__log-in a{
+    margin-right: 24px;
+    line-height: 25px;
+    color: #180330;
+}
+.menu__log-in a:nth-child(2){
+    margin-right: 0;
+}
+
+.log-in__link{
+    padding: 7px 18px;
+    border: 1px solid #550088;
+    border-radius: 4px;
+    transition: 1s ease;
+}
+.log-in__link:focus{
+    background-color: #550088;
+    color: #fff;
+}
+
+/* SECTION NAVIGATION */
+
+/* SECTION SWELL EMAIL */
+
+.swell__email{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.swell__email h1{
+    font-size: 96px;
+    line-height: 110px;
+    margin-bottom: 34px;
+}
+.swell__email-text{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+    font-size: 24px;
+    line-height: 37px;
+}
+
+.swell__email-input{
+    background: #FFFFFF;
+    border: 1px solid #180330;
+    box-sizing: border-box;
+    border-radius: 4px 0px 0px 4px;
+    padding: 8px 135px 9px 20px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: -5px;
+}
+.swell__email-button{
+    /* display: inline-block; */
+    background: linear-gradient(180deg, #550088 30.21%, #7800BF 66.15%, #892FFC 100%), #550088;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #180330;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 7px 29px 10px 30px ;
+    transition: .5s ease;
+}
+.swell__email-button:active{
+    transform: scale(1.04);
+}
+
+/* SECTION SWELL EMAIL END */
+
+/* SECTION GROW */
+
+.grow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 54px;
+    margin-bottom: 80px;
+}
+.grow h3{
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 27px;
+}
+.grow p{
+    width: 529px;
+    font-size: 20px;
+    line-height: 31px;
+    margin-bottom: 29px;
+}
+.grow a{
+    font-size: 20px;
+    line-height: 31px;
+    color: #550088;
+    margin-bottom: 38px;
+    transition: .7s ease;
+}
+.grow a:hover{
+    transform: translateY(-10px);
+}
+.grow:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+/* SECTION GROW END */
+
+/* SECTION BOX */
+
+.box{
+    height: 918px;
+    background-image: url(../img/zavod.png);
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
+    margin-top: 90px;
+    
+}
+.box h2{
+    width: 716px;
+    margin-bottom: 56px;
+    font-size: 56px;
+    line-height: 64px;
+}
+.box p{
+    font-size: 19px;
+    line-height: 31px;
+    margin-bottom: 12px;
+}
+.box a{
+    font-size: 19px;
+    line-height: 31px;
+    color: #550088;
+    border-top: 12px;
+}
+
+.box p img{
+    margin-right: 15px;
+}
+
+/* SECTION BOX END */
+
+/* SECTION PLATFORM */
+.boxes{
+    padding: 56px 171px 0 171px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F6F2F5 69.27%), #DBBEFF;
+    border-radius: 8px;
+    margin-bottom: 126px;
+}
+table{
+    text-align: center;
+}
+caption{
+    width: 555px;
+    font-size: 36px;
+    margin: 0 auto;
+    margin-bottom: 76px;
+    line-height: 41px;
+    text-align: center;
+    font-weight: 700;
+}
+th{
+    padding-right: 33px;
+    padding-bottom: 48px;
+}
+td{
+    padding-bottom: 33px;
+}
+.left{
+    width: 235px;
+    text-align: left;
+    padding-right: 43px;
+    padding-bottom: 30px;
+}
+.compare{
+    text-align: center;
+    margin-top: 56px;
+    font-size: 20px;
+    line-height: 31px;
+    color: #550088;
+}
+
+/* SECTION PLATFORM END */
+
+/* SECTION RESOUCES */
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 108px;
+    
+}
+.wrapper__title{
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 81px;
+    font-weight: 400;
+}
+.model{
+    width: 428px;
+    height: 760px;
+    background: #FFDDDD;
+    background-image: url(../img/koylak.svg);
+    background-repeat: no-repeat;
+    background-position: 159px 456px;
+}
+.model img{
+    padding-left: 35px;
+    margin-bottom: 166px;
+}
+.model__text{
+    width: 199px;
+    margin: 0 auto;
+    margin-bottom: 21px;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+}
+.model__text-sun{
+    line-height: 25px;
+    text-align: center;
+}
+
+.coffee{
+    width: 428px;
+    height: 760px;
+    background: #FFFADD;
+    background-image: url(../img/coffee.svg);
+    background-repeat: no-repeat;
+    background-position: 159px 68px;
+}
+.coffee__text{
+    width: 223px;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    padding-top: 135px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.coffee__text-rode{
+    text-align: center;
+    line-height: 25px;
+}
+.coffee__text-rode-2{
+    text-align: center;
+    line-height: 25px;
+}
+.coffee img{
+    margin-top: 90px;
+    padding-left: 35px;
+}
+
+.shopify{
+    width: 428px;
+    height: 760px;
+    background: #BFEDE5;
+    background-image: url(../img/shopify.svg);
+    background-repeat: no-repeat;
+    background-position: 159px 413px;
+}
+.shopify__text{
+    width: 228px;
+    margin: 0 auto;
+    margin-top: 123px;
+    margin-bottom: 21px;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+}
+.shopify__text-rode{
+    line-height: 25px;
+    text-align: center;
+}
+.shopify__text-rode-2{
+    line-height: 25px;
+    text-align: center;
+}
+.shopify img{
+    padding-left: 35px;
+}
+/* SECTION RESOUCES END */
+
+/* SECTION LOGO */
+
+.box-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 180px;
+}
+
+/* SECTION LOGO END */
+
+/* FOOTTER */
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 79px;
+}
+
+.social-media img{
+    margin-bottom: 30px;
+}
+.social-media a{
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+.swell a{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.company a{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.magento a{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.quetions a{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    /* align-items: center; */
+    font-size: 13px;
+    line-height: 20px;
+}
+.left{
+    margin-left: 16px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* FOOTTER END */
